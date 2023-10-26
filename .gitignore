@@ -1,6 +1,4 @@
-# Generated Verilog files
-*.vvp
-*.vcd
+build/
 
 # OS level cache
 **/.DS_Store

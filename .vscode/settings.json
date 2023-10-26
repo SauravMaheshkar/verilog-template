@@ -1,0 +1,4 @@
+{
+    "verilog.linting.iverilog.runAtFileLocation": true,
+    "verilog.linting.iverilog.arguments": "-DVCD_FILE"
+}

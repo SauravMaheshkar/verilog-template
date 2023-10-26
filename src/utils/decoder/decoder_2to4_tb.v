@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-`include "src/components/decoder/decoder.v"
+`include "decoder.v"
 
 module decoder_2to4_Testbench;
 
@@ -10,8 +10,8 @@ decoder_2to4 uut(A, D);
 
 initial begin
 
-    $dumpfile("decoder_2to4.vcd");
-    $dumpvars(0, decoder_2to4_Testbench);
+    $dumpfile(`VCD_FILE);
+    $dumpvars;
 
     A = 2'b00; #20;
     A = 2'b01; #20;
