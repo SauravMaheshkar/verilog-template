@@ -1,4 +1,4 @@
 {
-    "verilog.linting.iverilog.runAtFileLocation": true,
-    "verilog.linting.iverilog.arguments": "-DVCD_FILE"
+    "verilog.linting.linter": "iverilog",
+    "verilog.linting.iverilog.arguments": "$(find src -type d | sed 's/^/-I /') -DVCD_FILE"
 }
