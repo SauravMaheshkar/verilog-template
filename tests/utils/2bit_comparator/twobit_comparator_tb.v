@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-`include "twobit_comparator.v"
+`include "src/utils/2bit_comparator/twobit_comparator.v"
 
 module twobit_comparator_Testbench;
 

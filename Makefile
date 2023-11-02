@@ -23,7 +23,7 @@ ifeq ($(V),)
 endif
 
 build/%.vcd: %.v build/%.d
-	$(IVERILOG) -grelative-include -DVCD_FILE=\"build/$(<:.v=.vcd)\" -o $@ $<
+	$(IVERILOG) $(find src -type d | sed 's/^/-I /') -DVCD_FILE=\"build/$(<:.v=.vcd)\" -o $@ $<
 
 .PHONY: run
 run:: build/$(V:.v=.vcd)
