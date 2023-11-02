@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-`include "decoder.v"
+`include "src/utils/decoder/decoder.v"
 
 module decoder_1to2_Testbench;
 
