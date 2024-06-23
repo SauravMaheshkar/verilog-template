@@ -7,3 +7,7 @@ repos:
       - id: check-yaml
       - id: check-merge-conflict
       - id: detect-private-key
+  - repo: https://github.com/nix-community/nixpkgs-fmt
+    rev: v1.3.0
+    hooks:
+    -   id: nixpkgs-fmt

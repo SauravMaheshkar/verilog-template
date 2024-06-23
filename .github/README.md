@@ -1,3 +1,5 @@
+[![built with nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)
+
 A Template for Verilog Projects (using `iverilog` and `gtkwave`).
 
 * All test-bench's must be named as `*_tb.v` and be placed within the `tests/` dir.
