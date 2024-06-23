@@ -1,4 +1,6 @@
 build/
 
+flake.lock
+
 # OS level cache
 **/.DS_Store
